@@ -33,7 +33,7 @@ public class Connect4Project {
             printBoard();
 
             if (checkWin(row, col, currentPlayer)) {
-                System.out.println("Player " + currentPlayer + " wins!");
+                System.out.println("Player " + currentPlayer + "is winer!");
                 gameOver = true;
             } else if (isBoardFull()) {
                 System.out.println("It's a tie!");
